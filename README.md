@@ -15,9 +15,12 @@ React es una librería progresiva, esto porque puedes hacer desde una página se
 
 
 
-## Crear React App :atom_symbol:
+## React App :atom_symbol:
 
         npx create-react-app nombre-del-proyecto
+        
+### :open_file_folder: cd nombre-del-proyecto
+         npm start
 
 ## Styling and CSS  :sunglasses::fire:
 
