@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+
+import react from "react";
 import './App.css';
+
+import { TodoCounter } from "./TodoCounter";
+import { TodoSearch } from "./TodoSearch.js";
+import { TodoList } from "./TodoList.js";
+import { TodoItem } from "./TodoItem.js";
+import { CreateTodoButtom } from "./CreateTodoButton.js";
+
+const todos=[
+  {text:'Cortar cebolla', completed:false},
+  {text:'Tormar el curso de intro a react', completed:false},
+  {text:'Llorar con la llorona', completed:false}
+];
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello React
-        </a>
-      </header>
-    </div>
+    <react.Fragment>
+      <TodoCounter />    
+      <TodoSearch />
+      <TodoList>
+        {todos.map(todo =>(<TodoItem key={todo.text} text={todo.text} />))}
+      </TodoList>
+      <CreateTodoButtom />      
+    </react.Fragment>
   );
 }
 
