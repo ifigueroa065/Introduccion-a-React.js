@@ -1,4 +1,4 @@
-# Curso de Introducción a React.js :robot::green_heart:
+# Curso de Introducción a React.js  :smiling_imp::blue_heart:
 ¡Aprendiendo React.js, la librería más popular de JavaScript para crear aplicaciones web interactivas! 
 
 # Objetivos :rocket:
@@ -19,10 +19,10 @@ React es una librería progresiva, esto porque puedes hacer desde una página se
 
         npx create-react-app nombre-del-proyecto
 
-## Styling and CSS  :sunglasses: :fire:
+## Styling and CSS  :sunglasses::fire:
 
         https://reactjs.org/docs/faq-styling.html
 
 
-## DOM Elements - React :atom_symbol:
+## :blue_book: DOM Elements - React 
         https://reactjs.org/docs/dom-elements.html#style
