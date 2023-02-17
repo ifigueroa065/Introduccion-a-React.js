@@ -13,7 +13,7 @@ React es una herramienta de JavaScript en el front end que nos ayuda a construir
 
 React es una librería progresiva, esto porque puedes hacer desde una página sencilla hasta poder desarrollar aplicaciones gigantes, y llegar a convertirse en un framework en conjunto de muchas herramientas que existen a su alrededor.
 
-up
+
 
 ## React App :atom_symbol:
 
