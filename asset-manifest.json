@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Introduccion-a-React.js/static/css/main.2146b85e.css",
+    "main.js": "/Introduccion-a-React.js/static/js/main.da898c07.js",
+    "index.html": "/Introduccion-a-React.js/index.html",
+    "static/media/delete.svg": "/Introduccion-a-React.js/static/media/delete.84e4a932c97ebd0c6c78dd05068de6fb.svg",
+    "static/media/check.svg": "/Introduccion-a-React.js/static/media/check.869a5e77f19ab8e1fd324a52c184d1b0.svg",
+    "main.2146b85e.css.map": "/Introduccion-a-React.js/static/css/main.2146b85e.css.map",
+    "main.da898c07.js.map": "/Introduccion-a-React.js/static/js/main.da898c07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2146b85e.css",
+    "static/js/main.da898c07.js"
+  ]
+}
