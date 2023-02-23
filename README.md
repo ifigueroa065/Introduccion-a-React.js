@@ -29,3 +29,30 @@ React es una librería progresiva, esto porque puedes hacer desde una página se
 
 ## :blue_book: DOM Elements - React 
         https://reactjs.org/docs/dom-elements.html#style
+
+
+## DEPLOY  :rocket:
+Existen varias maneras para hacer deploy de nuestras aplicaciones, una de las más populares es GitHub Pages.
+
+
+Para inicializar nuestro proyecto con Create React App, utilizamos el comando npm start, lo que hace este comando, es que iniciar un servidor de node.js para poder compilar nuestro código de React a JavaScript, también para poder estar al pendiente por cambios y refrescar automáticamente nuestro proyecto al hacer algún cambio, entre muchas otras cosas.
+
+La principal desventaja de GitHub Pages, es que no podemos correr un servidor de node.js, solamente soporta archivos estáticos:
+
+* HTML
+* CSS
+* JavaScript
+* Imágenes
+
+Para hacer el deploy de nuestra aplicación, necesitaremos hacer lo siguiente:
+
+- Instalar la dependencia gh-pages con npm.
+- Modificar un poco el package.json
+- Y utilizaremos otros comandos de Create React App para construir una versión de producción de nuestro proyecto.
+
+### Instalar gh-pages
+Para instalar esta dependencia en nuestro proyecto, necesitamos ejecutar este comando en la terminal, dentro de la carpeta root en la que está nuestro proyecto: 
+
+        npm i -D gh-pages
+
+
