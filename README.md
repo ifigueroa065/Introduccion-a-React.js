@@ -55,4 +55,14 @@ Para instalar esta dependencia en nuestro proyecto, necesitamos ejecutar este co
 
         npm i -D gh-pages
 
+### Modificaciones del package.json
 
+```
+"scripts": {
+                                      //agregar los siguientes scripts
+    "predeploy":"npm run build"
+    "deploy":"gh-pages -d build"
+   
+},
+"homepage": "https://ifigueroa065.github.io/Introduccion-a-React.js"
+```
