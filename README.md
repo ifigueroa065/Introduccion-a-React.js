@@ -31,7 +31,7 @@ React es una librería progresiva, esto porque puedes hacer desde una página se
         https://reactjs.org/docs/dom-elements.html#style
 
 
-## DEPLOY  :rocket:
+## DEPLOY :money_with_wings:  :rocket:
 Existen varias maneras para hacer deploy de nuestras aplicaciones, una de las más populares es GitHub Pages.
 
 
@@ -50,12 +50,12 @@ Para hacer el deploy de nuestra aplicación, necesitaremos hacer lo siguiente:
 - Modificar un poco el package.json
 - Y utilizaremos otros comandos de Create React App para construir una versión de producción de nuestro proyecto.
 
-### Instalar gh-pages
+###  :whale: Instalar gh-pages
 Para instalar esta dependencia en nuestro proyecto, necesitamos ejecutar este comando en la terminal, dentro de la carpeta root en la que está nuestro proyecto: 
 
         npm i -D gh-pages
 
-### Modificaciones del package.json
+### :wrench: Modificaciones del package.json
 
 ```
 "scripts": {
